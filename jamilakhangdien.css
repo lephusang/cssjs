@@ -1004,12 +1004,18 @@ dl, ul {
     list-style-position: inside;
     list-style: none;
 }
-
 .intro li:first-child {
     width: 58.30%;
     height: 450px;
     float: left;
 }
+.intro li:first-child .rcp-thumb {
+    height: 450px;
+}
+.intro li:first-child .rcp-title {
+    font-size: 35px;
+}
+
 .intro li {
     width: 40%;
     height: 215px;
@@ -1020,20 +1026,11 @@ dl, ul {
     overflow: hidden;
     float: right;
 }
-.intro li:first-child .rcp-thumb {
-    height: 450px;
-}
-.intro li:first-child .rcp-title {
-    font-size: 35px;
-}
+
 .intro li:nth-child(2) {
 	margin-bottom: 20px;
 }
 
-.section, .widget, .widget ul, .widget li, .BlogArchive #ArchiveList ul.flat li {
-    margin: 0;
-    padding: 0;
-}
 .widget li, .BlogArchive #ArchiveList ul.flat li {
     padding: .25em 0;
     margin: 0;
@@ -1064,7 +1061,7 @@ ul li {
     bottom: 10px;
     line-height: 14px;
 }
-.intro a:link, a:visited {
+.row a:link, a:visited {
     color: #2496EE;
     text-decoration: none;
     outline: none;
