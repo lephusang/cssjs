@@ -966,3 +966,8 @@ margin:0 !important;
  @media screen and (max-width: 480px){ .form-name, .form-email{width: 94%;}
  }
  
+
+/*Liên hệ footer*/
+#footer input[type="text"]{
+margin: 0 2px 0 0;
+}
