@@ -93,7 +93,7 @@ float: left;
 position: relative;
 width: auto;
 float: left;
-padding: 50px 65px 50px 0;
+padding: 25px 65px 50px 0;
 border-right: 1px solid #eee;
 font-size: 16px;
 font-family: 'Roboto', sans-serif;
@@ -106,7 +106,7 @@ margin: 0 0 1em 0;
 .sidebar-wrapper {
 width: 350px;
 float: right;
-padding: 50px 0;
+padding: 25px 0;
 background:transparent;
 z-index:0;
 }
