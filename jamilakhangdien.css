@@ -573,7 +573,7 @@ margin-top: -6px;
 /*****************************************
 Post Highlighter CSS
 ******************************************/
-blockquote {   background: url("http://3.bp.blogspot.com/-wkm2RmV1TH4/Ud0G27MPsiI/AAAAAAAACfI/xaL0uFOJUI8/s1600/quote.png") no-repeat 5.4% center;  border-color: #CCCCCC;  border-style: dashed;  border-width: 2px 0;  color: #888;  font-style: italic;  margin: 10px 0 20px -3%;  padding: 1.5em 38px 10px 114px;  }
+blockquote {   background: url("http://3.bp.blogspot.com/-wkm2RmV1TH4/Ud0G27MPsiI/AAAAAAAACfI/xaL0uFOJUI8/s1600/quote.png") no-repeat 5.4% center;  border-color: #CCCCCC;  border-style: dashed;  border-width: 1px 0;  color: #888;  font-style: italic;  margin: 10px 0 20px -3%;  padding: 1.5em 38px 10px 114px;  }
 /*****************************************
 Custom Widget CSS
 ******************************************/
