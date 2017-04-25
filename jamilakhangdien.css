@@ -1045,16 +1045,6 @@ ul li {
 .intro li:first-child .rcp-thumb {
     height: 450px;
 }
-.intro .rcp-thumb {
-    width: 100%;
-    height: 215px;
-    display: block;
-    border-radius: 4px;
-    transition: all .3s ease-out !important;
-    -webkit-transition: all .3s ease-out !important;
-    -moz-transition: all .3s ease-out !important;
-    -o-transition: all .3s ease-out !important;
-}
 a:link, a:visited {
     color: #2496EE;
     text-decoration: none;
@@ -1122,6 +1112,8 @@ a:link, a:visited {
 	-moz-transition: all .3s ease-out !important;
 	-o-transition: all .3s ease-out !important;
 }
+
+
 a:link, a:visited {
 	color: #2496EE;
 	text-decoration: none;
