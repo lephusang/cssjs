@@ -988,19 +988,13 @@ margin: 0 2px 0 0;
 .section:first-child .widget:first-child {
     margin-top: 0;
 }
-.section, .widget, .widget ul, .widget li, .BlogArchive #ArchiveList ul.flat li {
-    margin: 0;
-    padding: 0;
-}
+
 .intro .widget .feat-content {
     margin-bottom: 20px !important;
     height: 450px;
     overflow: hidden;
 }
-.section, .widget, .widget ul, .widget li, .BlogArchive #ArchiveList ul.flat li {
-    margin: 0;
-    padding: 0;
-}
+
 .widget ul {
     padding: 0 0 0 1.25em;
     margin: 0;
@@ -1010,15 +1004,11 @@ dl, ul {
     list-style-position: inside;
     list-style: none;
 }
-.intro li:first-child {
-    float: left;
-}
+
 .intro li:first-child {
     width: 58.30%;
     height: 450px;
-}
-.intro li {
-    float: right;
+    float: left;
 }
 .intro li {
     width: 40%;
@@ -1028,7 +1018,18 @@ dl, ul {
     border-radius: 4px;
     z-index: 2;
     overflow: hidden;
+    float: right;
 }
+.intro li:first-child .rcp-thumb {
+    height: 450px;
+}
+.intro li:first-child .rcp-title {
+    font-size: 35px;
+}
+.intro li:nth-child(2) {
+	margin-bottom: 20px;
+}
+
 .section, .widget, .widget ul, .widget li, .BlogArchive #ArchiveList ul.flat li {
     margin: 0;
     padding: 0;
@@ -1042,9 +1043,7 @@ ul li {
     list-style: none;
 }
 
-.intro li:first-child .rcp-thumb {
-    height: 450px;
-}
+
 a:link, a:visited {
     color: #2496EE;
     text-decoration: none;
@@ -1059,9 +1058,7 @@ a:link, a:visited {
     position: absolute;
     bottom: 20px;
 }
-.intro li:first-child .rcp-title {
-    font-size: 35px;
-}
+
 .intro .rcp-title {
     font-size: 20px;
 }
@@ -1072,36 +1069,11 @@ a:link, a:visited {
     bottom: 10px;
     line-height: 14px;
 }
-a:link, a:visited {
+.intro a:link, a:visited {
     color: #2496EE;
     text-decoration: none;
     outline: none;
 }
-.intro li:nth-child(2) {
-	margin-bottom: 20px;
-}
-.intro li {
-	float: right;
-}
-.intro li {
-	width: 40%;
-	height: 215px;
-	position: relative;
-	padding: 0;
-	border-radius: 4px;
-	z-index: 2;
-	overflow: hidden;
-}
-.section, .widget, .widget ul, .widget li, .BlogArchive #ArchiveList ul.flat li {
-	margin: 0;
-	padding: 0;
-}
-.widget li, .BlogArchive #ArchiveList ul.flat li {
-	padding: .25em 0;
-	margin: 0;
-	text-indent: 0;
-}
-
 .intro .rcp-thumb {
 	width: 100%;
 	height: 215px;
@@ -1113,12 +1085,6 @@ a:link, a:visited {
 	-o-transition: all .3s ease-out !important;
 }
 
-
-a:link, a:visited {
-	color: #2496EE;
-	text-decoration: none;
-	outline: none;
-}
 
 .row {
     width: 1140px;
