@@ -1128,4 +1128,8 @@ a:link, a:visited {
 	outline: none;
 }
 
-
+.row {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+}
