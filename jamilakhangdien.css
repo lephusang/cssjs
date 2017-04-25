@@ -494,6 +494,7 @@ div.post-content h2,.post-title{font-weight:bold}
 
 .post-title,.post-title a,.ico16:before {
 color: #e74c3c!important;
+font-family: "times" , "times new roman" , serif;
 }
 
 .post-body { padding: 0;    margin:0;   word-wrap:break-word;  }
