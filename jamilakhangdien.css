@@ -1061,8 +1061,7 @@ ul li {
     bottom: 10px;
     line-height: 14px;
 }
-.row a:link, a:visited {
-    color: #2496EE;
+.row a:link, .row a:visited {
     text-decoration: none;
     outline: none;
 }
