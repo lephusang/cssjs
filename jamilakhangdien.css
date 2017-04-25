@@ -1044,11 +1044,6 @@ ul li {
 }
 
 
-a:link, a:visited {
-    color: #2496EE;
-    text-decoration: none;
-    outline: none;
-}
 .intro .post-panel {
     left: 20px;
     right: 20px;
