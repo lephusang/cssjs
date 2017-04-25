@@ -1083,3 +1083,12 @@ ul li {
 .intro {
 	font-family: "times" , "times new roman" , serif;
 }
+.intro li:hover .rcp-thumb {
+    -webkit-transform: scale(1.1)important;
+    -moz-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+    transition: all .3s ease-out !important;
+    -webkit-transition: all .3s ease-out !important;
+    -moz-transition: all .3s ease-out !important;
+    -o-transition: all .3s ease-out !important;
+}
