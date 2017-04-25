@@ -985,7 +985,7 @@ margin: 0 2px 0 0;
 .section:last-child .widget:last-child {
     margin-bottom: 0;
 }
-.section:first-child .widget:first-child {
+.row .section:first-child .widget:first-child {
     margin-top: 0;
 }
 
