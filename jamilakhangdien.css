@@ -1092,3 +1092,14 @@ ul li {
     -moz-transition: all .3s ease-out !important;
     -o-transition: all .3s ease-out !important;
 }
+
+/*BÀI VIẾT MỚI NHẤT*/
+#Blog1 h2{
+font-size: 20px;
+font-weight: normal;
+text-transform: none;
+margin-bottom: 15px;
+border-bottom: 1px solid #eee;
+padding: 0 0 0.5em;
+color: #34495e;
+}
