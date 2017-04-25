@@ -110,7 +110,9 @@ padding: 50px 0;
 background:transparent;
 z-index:0;
 }
-
+.post-body h3, h2, h1, h4, h5, h6{
+font-family: "times" , "times new roman" , serif;
+}
 /**** Layout Styling CSS *****/
 body#layout .header-wrapper { margin-top: 40px; }
 body#layout #header, body#layout .header-right { width: 50%; }
