@@ -25,7 +25,6 @@ function validateForm()
       document.getElementById('error-message-sdt').innerHTML = '';
    }
   
-   document.getElementById('error-message-hoten').innerHTML = '';
    document.getElementById('success-message').innerHTML = ' <br /> <br />Cám ơn anh chị đã để lại thông tin, nhân viên bên em sẽ liên hệ với anh chị trong thời gian sớm nhất.<br />';
    return true;
   }
