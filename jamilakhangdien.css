@@ -1103,3 +1103,8 @@ border-bottom: 1px solid #eee;
 padding: 0 0 0.5em;
 color: #34495e;
 }
+
+/*WIDGET CONTACT FORM BOX*/
+.widget-content .contact-form-box {
+width:80%;
+}
