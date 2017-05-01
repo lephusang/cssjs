@@ -1108,3 +1108,9 @@ color: #34495e;
 .widget-content .contact-form-box {
 width:80%;
 }
+
+
+.sidebar-wrapper a
+{
+	color:black;
+}
