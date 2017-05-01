@@ -1114,3 +1114,7 @@ width:80%;
 {
 	color:black;
 }
+
+.widget-content a:hover {
+    color: #807c7c;
+}
